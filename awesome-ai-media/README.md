@@ -1,0 +1,265 @@
+# Awesome AI Media [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
+> A curated collection of AI-powered video creation, social media automation, and content creator tools — with comparison tables and weekly updates.
+
+[English](README.md) | [中文](https://github.com/JuneYaooo/awesome-ai-media-cn)
+
+![Stars](https://img.shields.io/github/stars/JuneYaooo/awesome-ai-media?style=social)
+![Last Commit](https://img.shields.io/github/last-commit/JuneYaooo/awesome-ai-media)
+![License](https://img.shields.io/badge/license-CC0--1.0-blue)
+[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen)](CONTRIBUTING.md)
+
+## Contents
+
+- [One-Click Video Generation](#one-click-video-generation)
+- [AI Text-to-Video Models](#ai-text-to-video-models)
+- [Social Media Automation](#social-media-automation)
+- [Social Media Crawlers](#social-media-crawlers)
+- [Subtitle and Localization](#subtitle-and-localization)
+- [AI Short Drama Generation](#ai-short-drama-generation)
+- [AI Video Analysis and Notes](#ai-video-analysis-and-notes)
+- [AI Digital Human](#ai-digital-human)
+- [Programmatic Video Creation](#programmatic-video-creation)
+- [Video Editing Libraries](#video-editing-libraries)
+- [FAQ](#faq)
+
+---
+
+## One-Click Video Generation
+
+| Project | Stars | Grade | Description |
+|---------|-------|-------|-------------|
+| [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | ![](https://img.shields.io/github/stars/harry0703/MoneyPrinterTurbo?style=flat-square) | ⭐ A | One-click AI short video generator — auto script, TTS, subtitles, and assembly. Supports multiple LLMs |
+| [MoneyPrinter](https://github.com/FujiwaraChoki/MoneyPrinter) | ![](https://img.shields.io/github/stars/FujiwaraChoki/MoneyPrinter?style=flat-square) | ⭐ B | Automates YouTube Shorts / TikTok video creation from a topic |
+| [ShortGPT](https://github.com/RayVentura/ShortGPT) | ![](https://img.shields.io/github/stars/RayVentura/ShortGPT?style=flat-square) | ⭐ B | AI framework for automating short-form content creation |
+| [RedditVideoMakerBot](https://github.com/elebumm/RedditVideoMakerBot) | ![](https://img.shields.io/github/stars/elebumm/RedditVideoMakerBot?style=flat-square) | ⭐ B | Turn Reddit posts into TikTok/Shorts-style narrated videos |
+| [NarratoAI](https://github.com/linyqh/NarratoAI) | ![](https://img.shields.io/github/stars/linyqh/NarratoAI?style=flat-square) | ⭐ A | One-click AI narration and video editing — auto script, voiceover, and assembly |
+| [MoneyPrinterPlus](https://github.com/ddean2009/MoneyPrinterPlus) | ![](https://img.shields.io/github/stars/ddean2009/MoneyPrinterPlus?style=flat-square) | ⭐ B | Batch AI short video generator — supports multiple platforms and LLMs |
+| [Pixelle-Video](https://github.com/AIDC-AI/Pixelle-Video) | ![](https://img.shields.io/github/stars/AIDC-AI/Pixelle-Video?style=flat-square) | ⭐ B | Fully automated AI short video engine — end-to-end generation pipeline |
+| [short-video-factory](https://github.com/YILS-LIN/short-video-factory) | ![](https://img.shields.io/github/stars/YILS-LIN/short-video-factory?style=flat-square) | ⭐ B | One-click product marketing short video generator |
+| [Video-Materials-AutoGEN-Workstation](https://github.com/Norsico/Video-Materials-AutoGEN-Workstation) | ![](https://img.shields.io/github/stars/Norsico/Video-Materials-AutoGEN-Workstation?style=flat-square) | ⭐ C | Short video generation workstation with material auto-sourcing |
+| [OpenMontage](https://github.com/calesthio/OpenMontage) | ![](https://img.shields.io/github/stars/calesthio/OpenMontage?style=flat-square) | ⭐ A | Agentic open-source video production system — research, scripting, asset generation, timeline editing, and final render from plain-language prompts |
+| [OpenStory](https://github.com/openstory-so/openstory) | ![](https://img.shields.io/github/stars/openstory-so/openstory?style=flat-square) | ⭐ B | AI video-sequence platform that turns scripts into scene breakdowns, generated visuals, motion clips, and styled productions, with CI-backed TypeScript app architecture and edge-deployment support. |
+| [YumCut](https://github.com/IgorShadurin/app.yumcut.com) | ![](https://img.shields.io/github/stars/IgorShadurin/app.yumcut.com?style=flat-square) | ⭐ B | Self-hosted AI short-video generator for TikTok, YouTube Shorts, and Reels — turns prompts into scripts, scenes, voiceover, captions, and finished 9:16 videos with batch rendering and API hooks |
+| [AI YouTube Shorts Generator](https://github.com/SamurAIGPT/AI-Youtube-Shorts-Generator) | ![](https://img.shields.io/github/stars/SamurAIGPT/AI-Youtube-Shorts-Generator?style=flat-square) | ⭐ A- | AI clipping tool that turns long-form YouTube videos into Shorts/TikTok/Reels-ready vertical clips using LLM highlight ranking, local Whisper transcription, smart dedupe, and automatic cropping. |
+| [Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) | ![](https://img.shields.io/github/stars/Anil-matcha/Open-Generative-AI?style=flat-square) | ⭐ C | Open-source alternative to AI video platforms — Free AI image & video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed. |
+| [ClippedAI](https://github.com/Shaarav4795/ClippedAI) | ![](https://img.shields.io/github/stars/Shaarav4795/ClippedAI?style=flat-square) | ⭐ B | Open-source alternative to OpusClip — AI-powered YouTube Shorts generator with 100% local processing |
+| [muapi-cli](https://github.com/SamurAIGPT/muapi-cli) | ![](https://img.shields.io/github/stars/SamurAIGPT/muapi-cli?style=flat-square) | ⭐ B+ | Official CLI for muapi.ai — generate images, videos and audio from the terminal. MCP server with 14 AI models. |
+| [infinite-canvas](https://github.com/basketikun/infinite-canvas) | ![](https://img.shields.io/github/stars/basketikun/infinite-canvas?style=flat-square) | ⭐ B | AI-powered infinite canvas workspace integrating image generation, reference editing, video generation, canvas orchestration, and prompt library. Compatible with OpenAI/Grok/FLOW APIs. |
+| [ralphy](https://github.com/alecs5am/ralphy) | ![](https://img.shields.io/github/stars/alecs5am/ralphy?style=flat-square) | ⭐ C+ | Create viral videos with AI agents. Automates ideation, scripting, and video assembly for social media platforms. |
+| [AI-video-Replicate](https://github.com/xiaohuihui202504/AI-video-Replicate) | ![](https://img.shields.io/github/stars/xiaohuihui202504/AI-video-Replicate?style=flat-square) | ⭐ C | Gradio-based AI video generation frontend supporting Seedance, Sora2 models for text-to-video and image-to-video with model provider switching. |
+| [Nexior](https://github.com/AceDataCloud/Nexior) | ![](https://img.shields.io/github/stars/AceDataCloud/Nexior?style=flat-square) | ⭐ B | Consumer AI app for chat, image generation, video generation, and music creation. Multi-model unified interface for one-click creative content production. |
+| [clipforge](https://github.com/xixihhhh/clipforge) | ![](https://img.shields.io/github/stars/xixihhhh/clipforge?style=flat-square) | ⭐ C | ClipForge（原『带货剪手』/ daihuo-jianshou）：开源 AI 带货短视频神器——上传一张商品图，AI 自动提炼卖点 + 写种草脚本 + 锁定商品原图不变形 + 配画面/配音/字幕，一键产出抖音小店 / 快手 / 小红书 / TikTok Shop 卖货短视频。0 成本批量出片、开源无水印、本地自部署。也支持一句话主题成片。Open-source AI e-commerc... |
+| [Wan-3.0-API](https://github.com/Anil-matcha/Wan-3.0-API) | ![](https://img.shields.io/github/stars/Anil-matcha/Wan-3.0-API?style=flat-square) | ⭐ C | Wan 3.0 API Python SDK and MCP server for AI video generation: text-to-video, image-to-video, multimodal references, uploads, and async job polling. |
+| [Shopro-AI](https://github.com/wyxpro/Shopro-AI) | ![](https://img.shields.io/github/stars/wyxpro/Shopro-AI?style=flat-square) | ⭐ C | 一款专门解决抖音/TikTok/快手/小红书电商商家在短视频营销中“痛点”的 平台。通过「商品信息输入/URL 卖点提取 ➔ AI 智能脚本生成 ➔ 数字人选择与克隆 ➔ 多语言智能翻译 ➔ 分镜编辑 ➔ 素材混剪 ➔ 视频异步合成 ➔ 多平台一键发布」的完整Agent端到端闭环，帮助商家以极低成本快速产出高转化潜力的带货视频。 |
+| [vidknot](https://github.com/suonian/vidknot) | ![](https://img.shields.io/github/stars/suonian/vidknot?style=flat-square) | ⭐ C | VidkNot（影音笔记舱）— 一键从 11+ 自媒体平台（YouTube、B站、抖音、小红书、快手、TikTok、Twitter/X、Instagram、视频号、微博、Vimeo）提取视频笔记：下载音频、双 ASR 交叉校验、LLM 生成结构化笔记，同步到 Obsidian/飞书/Notion/语雀。Video Knowledge, Knotted. |
+| [multiplatform-downloader](https://github.com/Janusilver/multiplatform-downloader) | ![](https://img.shields.io/github/stars/Janusilver/multiplatform-downloader?style=flat-square) | ⭐ C | 多平台无水印下载器：抖音 / 小红书 / 快手 / B站 / YouTube / X (Twitter) / Instagram 一键下载（Python + tkinter GUI；Windows 完整实测，Linux 命令行可用） |
+| [xinli](https://github.com/zhuiguangAI/xinli) | ![](https://img.shields.io/github/stars/zhuiguangAI/xinli?style=flat-square) | ⭐ C | AI爆款视频生成系统，抖音直播 无人直播 AI直播 AI直播语音回复，全网支持主流平台：Tiktok/抖音/快手/视频号 /小红书/拼多多/美团/淘宝等。特色功能：一键obs实时去重、音画同步、数字人服务等 |
+| [article2media](https://github.com/threerocks/article2media) | ![](https://img.shields.io/github/stars/threerocks/article2media?style=flat-square) | ⭐ C | 把一篇文章或一条视频（抖音、B 站、YouTube，先转逐字稿）一键做成小红书图文、杂志长图、公众号排版和 AI 配音口播短视频的开源 Claude Code / Codex Skill。21 套主题，自动验收，零 npm 依赖。 |
+
+## AI Text-to-Video Models
+
+| Project | Stars | Grade | Description |
+|---------|-------|-------|-------------|
+| [Open-Sora](https://github.com/hpcaitech/Open-Sora) | ![](https://img.shields.io/github/stars/hpcaitech/Open-Sora?style=flat-square) | ⭐ A | Open-source Sora reproduction — high-quality text-to-video generation |
+| [Wan2.1](https://github.com/Wan-Video/Wan2.1) | ![](https://img.shields.io/github/stars/Wan-Video/Wan2.1?style=flat-square) | ⭐ A | Alibaba's open video generation suite — text/image-to-video, 1.3B-14B params |
+| [FramePack](https://github.com/lllyasviel/FramePack) | ![](https://img.shields.io/github/stars/lllyasviel/FramePack?style=flat-square) | ⭐ A | Video generation with fixed GPU memory regardless of length — consumer GPU friendly |
+| [CogVideo](https://github.com/THUDM/CogVideo) | ![](https://img.shields.io/github/stars/THUDM/CogVideo?style=flat-square) | ⭐ A | Tsinghua text-to-video diffusion model — 2B/5B variants |
+| [HunyuanVideo](https://github.com/Tencent/HunyuanVideo) | ![](https://img.shields.io/github/stars/Tencent/HunyuanVideo?style=flat-square) | ⭐ B | Tencent's large-scale open video generation model |
+| [HunyuanVideo-1.5](https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5) | ![](https://img.shields.io/github/stars/Tencent-Hunyuan/HunyuanVideo-1.5?style=flat-square) | ⭐ A | Tencent's lightweight 8.3B video generation model with consumer-GPU inference, open weights, training/inference code, ComfyUI support, and prompt handbooks |
+| [AnimateDiff](https://github.com/guoyww/AnimateDiff) | ![](https://img.shields.io/github/stars/guoyww/AnimateDiff?style=flat-square) | ⭐ B | Animate personalized text-to-image models into video clips |
+| [diffusers](https://github.com/huggingface/diffusers) | ![](https://img.shields.io/github/stars/huggingface/diffusers?style=flat-square) | ⭐ C | 🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch. |
+| [Lance](https://github.com/bytedance/Lance) | ![](https://img.shields.io/github/stars/bytedance/Lance?style=flat-square) | ⭐ C | A 3B-active-parameter native unified multimodal model for image and video understanding, generation, and editing. |
+| [Sana](https://github.com/NVlabs/Sana) | ![](https://img.shields.io/github/stars/NVlabs/Sana?style=flat-square) | ⭐ C | SANA: Efficient High-Resolution Image Synthesis with Linear Diffusion Transformer |
+| [Helios](https://github.com/PKU-YuanGroup/Helios) | ![](https://img.shields.io/github/stars/PKU-YuanGroup/Helios?style=flat-square) | ⭐ B | PKU-YuanGroup real-time long video generation model with open weights |
+| [vllm-omni](https://github.com/vllm-project/vllm-omni) | ![](https://img.shields.io/github/stars/vllm-project/vllm-omni?style=flat-square) | ⭐ B+ | Framework for efficient model inference with omni-modality models including text-to-video, image-to-video, and multimodal generation pipelines. |
+| [Cosmos-Predict2.5](https://github.com/nvidia-cosmos/cosmos-predict2.5) | ![](https://img.shields.io/github/stars/nvidia-cosmos/cosmos-predict2.5?style=flat-square) | ⭐ B+ | NVIDIA Cosmos World Foundation Models (WFM) — latest version for video prediction, generation, and world-state modeling. State-of-the-art physics-aware video synthesis and forecasting. |
+| [LightX2V](https://github.com/ModelTC/LightX2V) | ![](https://img.shields.io/github/stars/ModelTC/LightX2V?style=flat-square) | ⭐ B+ | Light Image-to-Video Generation Inference Framework — efficient video diffusion model inference with optimized memory footprint, supporting multiple state-of-the-art I2V models. |
+| [ltx-video-mac](https://github.com/james-see/ltx-video-mac) | ![](https://img.shields.io/github/stars/james-see/ltx-video-mac?style=flat-square) | ⭐ C | Native macOS app for AI video generation using LTX-Video model, optimized for Apple Silicon |
+| [daihuo-jianshou](https://github.com/xixihhhh/daihuo-jianshou) | ![](https://img.shields.io/github/stars/xixihhhh/daihuo-jianshou?style=flat-square) | ⭐ C | AI 电商带货视频生成工具 | 上传商品图自动生成抖音/快手/小红书带货短视频，AI 脚本+生图+合成一条龙 | Seedance 2.0 / GPT Image 2 / Kling 3.0 / Veo 3 / Nano Banana 2 / FFmpeg |
+| [Stable-Diffusion](https://github.com/FurkanGozukara/Stable-Diffusion) | ![](https://img.shields.io/github/stars/FurkanGozukara/Stable-Diffusion?style=flat-square) | ⭐ C | FLUX, Stable Diffusion, SDXL, SD3, LoRA, Fine Tuning, DreamBooth, Training, Automatic1111, Forge WebUI, SwarmUI, DeepFake, TTS, Animation, Text To Video, Tutorials, Guides, Lectures, Courses, Comfy... |
+| [video-clipforge](https://github.com/Johnson-Jia/video-clipforge) | ![](https://img.shields.io/github/stars/Johnson-Jia/video-clipforge?style=flat-square) | ⭐ C | AI 驱动的短视频制作系统。给它一个想法，它帮你写稿、配音、做画面、出成片。9 阶段 DAG 管线 + 自进化评分，支持每日自动执行。基于 Claude Code + HyperFrames。 |
+| [mediagen](https://github.com/Cripacx/mediagen) | ![](https://img.shields.io/github/stars/Cripacx/mediagen?style=flat-square) | ⭐ C | AI image and video generation skill for Claude Code and other coding agents — Gemini, OpenAI and Kie AI behind one CLI and MCP server, with EU AI Act content marking. |
+| [avatar-speak-pro-download](https://github.com/Nathanielyseterday/avatar-speak-pro-download) | ![](https://img.shields.io/github/stars/Nathanielyseterday/avatar-speak-pro-download?style=flat-square) | ⭐ C | An automated AI avatar video generation pipeline designed to boost conversion rates for TikTok ads and Shopify funnels via text scripts. |
+| [muse2api](https://github.com/czg86389-hub/muse2api) | ![](https://img.shields.io/github/stars/czg86389-hub/muse2api?style=flat-square) | ⭐ C | 把 Muse(muse.ai) 逆向封装为 OpenAI 兼容接口，支持对话、文生图、文生视频/图生视频、多账号池轮转与 48h 自动续期。OpenAI-compatible API for Muse.ai with Chat, Image & Video generation. |
+| [uncensored-nsfw-ai-video-api](https://github.com/wideeyededi/uncensored-nsfw-ai-video-api) | ![](https://img.shields.io/github/stars/wideeyededi/uncensored-nsfw-ai-video-api?style=flat-square) | ⭐ C | Uncensored NSFW AI video API — Seedance Spicy & Wan NSFW docs for 18+ text-to-video / image-to-video: async tasks, webhooks, credits billing. 成人向 AI 视频生成 API：Seedance Spicy、Wan NSFW、文生/图生视频、异步任务、积分... |
+| [explainer-video](https://github.com/SpeedPainterOrg/explainer-video) | ![](https://img.shields.io/github/stars/SpeedPainterOrg/explainer-video?style=flat-square) | ⭐ C | Codex plugin for turning text, URLs, and documents into narrated hand-drawn explainer videos. |
+| [lindyson-ai](https://github.com/orylite/lindyson-ai) | ![](https://img.shields.io/github/stars/orylite/lindyson-ai?style=flat-square) | ⭐ C | AI video & image generation workspace for e-commerce teams, built on Volcengine Seedance / Seedream, with MCP for ChatGPT & Codex · 面向电商团队的 AI 视频与图片生成工作台 |
+| [otopilot](https://github.com/wj-sidiss/otopilot) | ![](https://img.shields.io/github/stars/wj-sidiss/otopilot?style=flat-square) | ⭐ C | Turn a topic into a finished YouTube Short/video: script, free & CC0 images, voice-over, subtitles, thumbnail. Runs locally, no key needed. Use with Claude Code / Codex. 15-language UI. MIT |
+
+## Social Media Automation
+
+| Project | Stars | Grade | Description |
+|---------|-------|-------|-------------|
+| [Postiz](https://github.com/gitroomhq/postiz-app) | ![](https://img.shields.io/github/stars/gitroomhq/postiz-app?style=flat-square) | ⭐ A | Open-source social media scheduling — alternative to Buffer/Hootsuite |
+| [TryPost](https://github.com/trypost-it/trypost) | ![](https://img.shields.io/github/stars/trypost-it/trypost?style=flat-square) | ⭐ B | Self-hosted social media scheduling platform for creators and teams, with Laravel + Vue stack, multi-network publishing, docs, releases, and roadmap-driven development. |
+| [social-auto-upload](https://github.com/dreammis/social-auto-upload) | ![](https://img.shields.io/github/stars/dreammis/social-auto-upload?style=flat-square) | ⭐ B | Auto-upload videos to Douyin, TikTok, Bilibili, Kuaishou, Xiaohongshu |
+| [video-mover](https://github.com/toki-plus/video-mover) | ![](https://img.shields.io/github/stars/toki-plus/video-mover?style=flat-square) | ⭐ C | Fully automated short video cross-platform reposting tool |
+| [BrightBean Studio](https://github.com/brightbeanxyz/brightbean-studio) | ![](https://img.shields.io/github/stars/brightbeanxyz/brightbean-studio?style=flat-square) | ⭐ A | Self-hosted social media management platform for creators and agencies — scheduling, approval, publishing, analytics, and multi-workspace collaboration across 10+ platforms |
+| [YTB2BILI](https://github.com/difyz9/ytb2bili) | ![](https://img.shields.io/github/stars/difyz9/ytb2bili?style=flat-square) | ⭐ B | End-to-end YouTube/TikTok to Bilibili reposting pipeline with auto download, Whisper subtitles, AI translation, metadata generation, scheduling, and web dashboard |
+| [PostBot](https://github.com/gitcoffee-os/postbot) | ![](https://img.shields.io/github/stars/gitcoffee-os/postbot?style=flat-square) | ⭐ B | Multi-platform content sync assistant for articles, notes, images, video, and audio across major Chinese and international publishing platforms |
+| [social-media-kit](https://github.com/terrytangyuan/social-media-kit) | ![](https://img.shields.io/github/stars/terrytangyuan/social-media-kit?style=flat-square) | ⭐ B | Self-hosted social media composer and direct publisher for LinkedIn, X, Bluesky, and Mastodon, with OAuth setup, formatting helpers, reminders, and Docker deployment. |
+| [Post4U](https://github.com/ShadowSlayer03/Post4U-Schedule-Social-Media-Posts) | ![](https://img.shields.io/github/stars/ShadowSlayer03/Post4U-Schedule-Social-Media-Posts?style=flat-square) | ⭐ B | Self-hosted cross-posting dashboard for X, Reddit, Telegram, Discord, and Bluesky with scheduling, previews, media uploads, and an API-first FastAPI backend. |
+| [Free-AI-Social-Media-Scheduler](https://github.com/Anil-matcha/Free-AI-Social-Media-Scheduler) | ![](https://img.shields.io/github/stars/Anil-matcha/Free-AI-Social-Media-Scheduler?style=flat-square) | ⭐ B+ | Free open-source AI social media scheduler — self-hostable alternative to Postiz/Buffer. Supports multi-platform scheduling with AI-powered content optimization and analytics. |
+| [trypost](https://github.com/trypostit/trypost) | ![](https://img.shields.io/github/stars/trypostit/trypost?style=flat-square) | ⭐ B- | Open-source social media scheduling platform with multi-account management, post queuing, and cross-platform publishing for teams and agencies. |
+| [Prism](https://github.com/Laihiujin/Prism) | ![](https://img.shields.io/github/stars/Laihiujin/Prism?style=flat-square) | ⭐ C | AI 驱动的多平台内容自动发布与矩阵分发系统，支持抖音、小红书、快手、视频号、B站、YouTube、TikTok；提供多账号管理、素材管理、定时发布、任务调度、执行监控、数据回收与 AI 内容编排。 |
+| [socialclaw](https://github.com/ndesv21/socialclaw) | ![](https://img.shields.io/github/stars/ndesv21/socialclaw?style=flat-square) | ⭐ C | Social media scheduling CLI and OpenClaw skill for AI agents posting to X, LinkedIn, Instagram, Facebook Pages, TikTok, Discord, Telegram, YouTube, Reddit, WordPress, and Pinterest. |
+| [meiti-ai](https://github.com/zhuixin8/meiti-ai) | ![](https://img.shields.io/github/stars/zhuixin8/meiti-ai?style=flat-square) | ⭐ C | ALQQ · AI 自媒体内容运营平台｜一次创作，图文/动态/视频 一键分发 20+ 平台（抖音/小红书/B站/快手/视频号/头条/百家号/公众号/知乎/微博等）。AI写文·去AI味·热点选题·定时自动发布·多账号矩阵。完全免费，桌面端+网页端。 |
+| [SoloMCN](https://github.com/ymybxx/SoloMCN) | ![](https://img.shields.io/github/stars/ymybxx/SoloMCN?style=flat-square) | ⭐ C | 把 Claude Code 变成你的短视频团队：不搭工作流，直接让 Claude 干活，从国内热榜、推特热帖到抖音、小红书、B站、YouTube、推特发布。Turn Claude Code into your short-video team — no workflows, from trends and X posts to publishing. |
+| [postiz-cheap](https://github.com/SamurAIGPT/postiz-cheap) | ![](https://img.shields.io/github/stars/SamurAIGPT/postiz-cheap?style=flat-square) | ⭐ C | Free, open-source Postiz alternative: self-host a social media scheduler with an AI post writer, content calendar, and publishing across 8 platforms. MIT licensed; external provider charges may apply. |
+| [scrapeio-agent](https://github.com/xhoantran/scrapeio-agent) | ![](https://img.shields.io/github/stars/xhoantran/scrapeio-agent?style=flat-square) | ⭐ C | Agent skills for social media research: influencer discovery, creator vetting, competitor audits, transcripts, comments, trends, ad libraries. MCP server for TikTok, Instagram, YouTube, X and 29 more. |
+
+## Social Media Crawlers
+
+| Project | Stars | Grade | Description |
+|---------|-------|-------|-------------|
+| [MediaCrawler](https://github.com/NanmiCoder/MediaCrawler) | ![](https://img.shields.io/github/stars/NanmiCoder/MediaCrawler?style=flat-square) | ⭐ A | Crawler for Xiaohongshu, Douyin, Kuaishou, Bilibili, and Weibo |
+| [TikTok-Live-Connector](https://github.com/zerodytrash/TikTok-Live-Connector) | ![](https://img.shields.io/github/stars/zerodytrash/TikTok-Live-Connector?style=flat-square) | ⭐ B | Node.js library for real-time TikTok LIVE events such as comments, gifts, and member activity — useful for creator analytics, moderation bots, and livestream automations. |
+| [pytok](https://github.com/MEOMcGill/pytok) | ![](https://img.shields.io/github/stars/MEOMcGill/pytok?style=flat-square) | ⭐ C+ | Web scraper for TikTok — extract video metadata, comments, and user data programmatically with Python. |
+| [ParseHub](https://github.com/z-mio/ParseHub) | ![](https://img.shields.io/github/stars/z-mio/ParseHub?style=flat-square) | ⭐ C+ | 轻量、异步、开箱即用的社交媒体聚合解析库，支持多平台内容提取。Lightweight async social media aggregation and parsing library. |
+| [x-web-crawler](https://github.com/jacobsomer/x-web-crawler) | ![](https://img.shields.io/github/stars/jacobsomer/x-web-crawler?style=flat-square) | ⭐ C+ | Python package for automated interactions on social media platforms like Twitter/X, with stealth-grade browser automation and data extraction. |
+| [stormy-cookbook](https://github.com/OneInterface/stormy-cookbook) | ![](https://img.shields.io/github/stars/OneInterface/stormy-cookbook?style=flat-square) | ⭐ C | Open-source cookbook for the Stormy Social Data API and MCP server (Model Context Protocol) — one REST API for the TikTok API, YouTube API, Instagram API, LinkedIn API, X (Twitter) API and Reddit A... |
+| [TikTokLive](https://github.com/isaackogan/TikTokLive) | ![](https://img.shields.io/github/stars/isaackogan/TikTokLive?style=flat-square) | ⭐ B+ | Definitive Python library for receiving TikTok livestream events — comments, gifts, follows, and shares in real-time. Production-ready with async support and connection pooling. |
+| [skraper](https://github.com/sokomishalov/skraper) | ![](https://img.shields.io/github/stars/sokomishalov/skraper?style=flat-square) | ⭐ B- | Kotlin/Java library and CLI tool for scraping posts and media from various social sources. Multi-platform extraction with built-in rate limiting and retry logic. |
+| [Beav](https://github.com/Jamailar/Beav) | ![](https://img.shields.io/github/stars/Jamailar/Beav?style=flat-square) | ⭐ C | 小红书全域解决方案，开箱即用，一键安装，小红书AI工作台，自媒体素材库，AI写作+图片自动编排，小红书版OpenClaw、自媒体资产底座+AI工作台，支持小红书图文+小红书评论区下载、小红书AI创作、自媒体版WorkBuddy、小红书爬虫数据采集｜你桌面盒子里的AI小河狸🦫 |
+| [Douyin_TikTok_Download_API](https://github.com/Evil0ctal/Douyin_TikTok_Download_API) | ![](https://img.shields.io/github/stars/Evil0ctal/Douyin_TikTok_Download_API?style=flat-square) | ⭐ C | 🚀 Self-hosted TikTok & Douyin scraper and no-watermark video downloader — async REST API, MCP server, CLI and web console for posts, profiles, comments and playlists. Self-healing identity pool, Po... |
+| [mcp](https://github.com/supadata-ai/mcp) | ![](https://img.shields.io/github/stars/supadata-ai/mcp?style=flat-square) | ⭐ C | Official Supadata MCP Server - Adds powerful video & web scraping to Cursor, Claude and any other LLM clients. |
+| [creatorhub](https://github.com/3441293738/creatorhub) | ![](https://img.shields.io/github/stars/3441293738/creatorhub?style=flat-square) | ⭐ C | 多平台内容监控·采集·搬运 一个 Web 面板管起抖音 / 小红书 / 快手 / 视频号 / TikTok / 哔哩哔哩 / Instagram / 海外小红书(rednote) |
+
+## Subtitle and Localization
+
+| Project | Stars | Grade | Description |
+|---------|-------|-------|-------------|
+| [VideoLingo](https://github.com/Huanshere/VideoLingo) | ![](https://img.shields.io/github/stars/Huanshere/VideoLingo?style=flat-square) | ⭐ A | All-in-one video translation — Netflix-quality subtitles, dubbing, alignment |
+| [KrillinAI](https://github.com/krillinai/KrillinAI) | ![](https://img.shields.io/github/stars/krillinai/KrillinAI?style=flat-square) | ⭐ A | Video translation and dubbing tool powered by AI — multi-language support |
+| [video-subtitle-remover](https://github.com/YaoFANGUK/video-subtitle-remover) | ![](https://img.shields.io/github/stars/YaoFANGUK/video-subtitle-remover?style=flat-square) | ⭐ A | AI-powered hard subtitle and watermark removal from videos |
+| [faster-whisper](https://github.com/SYSTRAN/faster-whisper) | ![](https://img.shields.io/github/stars/SYSTRAN/faster-whisper?style=flat-square) | ⭐ A | 4x faster Whisper for transcription and subtitle generation |
+| [whisper.cpp](https://github.com/ggerganov/whisper.cpp) | ![](https://img.shields.io/github/stars/ggerganov/whisper.cpp?style=flat-square) | ⭐ A | High-performance C/C++ port of Whisper — runs on CPU and Apple Silicon |
+| [whisperX](https://github.com/m-bain/whisperX) | ![](https://img.shields.io/github/stars/m-bain/whisperX?style=flat-square) | ⭐ A | Whisper-based transcription tool with word-level timestamps, forced alignment, diarization, PyPI/uv installs, and fast batched inference for subtitle workflows. |
+| [WhisperLive](https://github.com/collabora/WhisperLive) | ![](https://img.shields.io/github/stars/collabora/WhisperLive?style=flat-square) | ⭐ A- | Real-time Whisper transcription stack with streaming server/client modes, Docker deployment, browser extensions, and translation-friendly pipelines for live subtitles and captioning workflows. |
+| [VideoCaptioner](https://github.com/WEIFENG2333/VideoCaptioner) | ![](https://img.shields.io/github/stars/WEIFENG2333/VideoCaptioner?style=flat-square) | ⭐ A | LLM-powered subtitle workstation with ASR, sentence resegmentation, subtitle correction, translation, burn-in, GUI/CLI apps, and tests |
+| [WhisperSubs](https://github.com/GeiserX/whisper-subs) | ![](https://img.shields.io/github/stars/GeiserX/whisper-subs?style=flat-square) | ⭐ B | Jellyfin plugin for fully local subtitle and lyric generation using whisper.cpp, with built-in model download, automatic language detection, forced-subtitle mode, and test-backed .NET packaging. |
+| [Silhouette](https://github.com/xulihang/Silhouette) | ![](https://img.shields.io/github/stars/xulihang/Silhouette?style=flat-square) | ⭐ B- | Cross-platform computer-aided translation app for audio/video with Whisper ASR, context-aware LLM translation, waveform subtitle editing, forced alignment, and SRT/TXT export. |
+| [ArcSub](https://github.com/brucexuego/ArcSub) | ![](https://img.shields.io/github/stars/brucexuego/ArcSub?style=flat-square) | ⭐ B | Local-first subtitle workstation for media download, speech recognition, translation, review, styling, and multi-format export with packaged releases and docs. |
+| [Open-Lyrics](https://github.com/zh-plus/Open-Lyrics) | ![](https://img.shields.io/github/stars/zh-plus/Open-Lyrics?style=flat-square) | ⭐ B | Python subtitle pipeline that transcribes with Whisper, then translates/polishes into `.lrc` subtitles using LLMs. Includes audio preprocessing, glossary support, bilingual output, tests, and PyPI packaging |
+| [open-dubbing](https://github.com/softcatala/open-dubbing) | ![](https://img.shields.io/github/stars/softcatala/open-dubbing?style=flat-square) | ⭐ B- | Experimental but usable local dubbing CLI that combines Whisper, translation engines, and multiple TTS backends to translate and synchronize spoken audio into new languages. |
+| [LiveTranslate](https://github.com/TheDeathDragon/LiveTranslate) | ![](https://img.shields.io/github/stars/TheDeathDragon/LiveTranslate?style=flat-square) | ⭐ B | Windows real-time audio translation overlay for videos, livestreams, and voice chat, with faster-whisper / SenseVoice ASR, OpenAI-compatible translation APIs, and streaming subtitle display. |
+| [short-video-generator-AI](https://github.com/OStudi/short-video-generator-AI) | ![](https://img.shields.io/github/stars/OStudi/short-video-generator-AI?style=flat-square) | ⭐ C | Free open-source project designed for turning youtube-viedos into viral short videos. Highlight detection, subtitles, translation, voiceover, all in one for your content. |
+| [haoone-app](https://github.com/minghe36/haoone-app) | ![](https://img.shields.io/github/stars/minghe36/haoone-app?style=flat-square) | ⭐ C | 新一代 AI 专业字幕软件，剪映字幕、elevenlabs 语音转文本的最佳本地版平替之一，也是加强版。中英转录识别准确率超过 96%，词语音频对齐率 98%，带有最先进的 ASR 开源模型。专业字幕编辑器、命令行工具、Skill，达芬奇字幕插件，PR 字幕插件，本地转录、远程转录、文稿匹配、智能拆行、AI校正、AI 智能热词、翻译、双语字幕、专业字幕编辑器、字幕合成、自定义大模型 API... |
+| [SubErase-Translate-Embed](https://github.com/chenwr727/SubErase-Translate-Embed) | ![](https://img.shields.io/github/stars/chenwr727/SubErase-Translate-Embed?style=flat-square) | ⭐ C | SubErase-Translate-Embed is an open-source tool that automatically extracts, erases, translates, and embeds subtitles in videos using OCR and AI. SubErase-Translate-Embed 是一个开源工具，能够自动提取、删除、翻译和嵌入视频中... |
+| [SmartSub](https://github.com/buxuku/SmartSub) | ![](https://img.shields.io/github/stars/buxuku/SmartSub?style=flat-square) | ⭐ C | 视频转字幕、字幕翻译、AI 配音与声音克隆、字幕烧录——免费开源的一站式桌面工具。基于 Whisper / FunASR 等本地模型离线语音转文字，批量处理 + 全平台 GPU 加速，跨 Windows / macOS / Linux。Free, open-source desktop app to generate, translate, dub & burn video subtitle... |
+| [dub-studio](https://github.com/timoncool/dub-studio) | ![](https://img.shields.io/github/stars/timoncool/dub-studio?style=flat-square) | ⭐ C | Free offline AI video dubbing studio for Windows — voice cloning, translation, subtitles & on-screen-text localization. 100% local, one native .exe, zero Python. |
+| [YouDub-webui](https://github.com/liuzhao1225/YouDub-webui) | ![](https://img.shields.io/github/stars/liuzhao1225/YouDub-webui?style=flat-square) | ⭐ C | 开源 AI 视频本地化工具：自动完成 YouTube/Bilibili 视频下载、字幕识别与翻译、语音克隆配音、音轨混合和字幕压制。 |
+| [hotclip](https://github.com/xixihhhh/hotclip) | ![](https://img.shields.io/github/stars/xixihhhh/hotclip?style=flat-square) | ⭐ C | 免费开源的 AI 剪辑 / 直播切片工具:长视频、直播回放、播客一键切成爆款竖屏短视频——AI 找高光金句、自动加字幕、横屏转竖屏,本地运行无水印不上传 | Free open-source Opus Clip alternative, 100% local: AI clips long videos & livestream VODs into viral 9:16 shorts. No ... |
+| [VideoHub](https://github.com/cacity/VideoHub) | ![](https://img.shields.io/github/stars/cacity/VideoHub?style=flat-square) | ⭐ C | VideoHub 是一款本地化多平台视频处理与智能剪辑工具，支持 YouTube、抖音/TikTok、Instagram、Bilibili 和 Twitter/X，提供视频下载、Whisper 转写、字幕翻译与润色、多模型 AI 配音、影视解说、故事剪辑、音乐卡点及剧集批量处理，并可通过 Codex、Claude Code 等智能助手以自然语言完成完整工作流。 |
+| [asmr-dubber](https://github.com/EveningStudy/asmr-dubber) | ![](https://img.shields.io/github/stars/EveningStudy/asmr-dubber?style=flat-square) | ⭐ C | 音视频字幕及配音工具：支持 ASR（语音识别）、台本导入、AI 翻译、双语字幕、音色克隆、TTS（语音合成）与混音以得到双语音频。 |
+| [Transub](https://github.com/dlsandy/Transub) | ![](https://img.shields.io/github/stars/dlsandy/Transub?style=flat-square) | ⭐ C | 拖进视频就能批量生成高质量字幕，自动质检修复，自带专业级字幕编辑器。支持转写、翻译与双语。 |
+| [autoclip](https://github.com/zhouxiaoka/autoclip) | ![](https://img.shields.io/github/stars/zhouxiaoka/autoclip?style=flat-square) | ⭐ C | AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing. |
+| [OpenCreator](https://github.com/krillinai/OpenCreator) | ![](https://img.shields.io/github/stars/krillinai/OpenCreator?style=flat-square) | ⭐ C | Formerly KrillinAI. Open-source AI workspace for creators, powered by Codex. Video translation, create videos, images, voice, avatars, and edits with Agents in one place. Suitable for your Social M... |
+| [Translate-Subtitle-File](https://github.com/1c7/Translate-Subtitle-File) | ![](https://img.shields.io/github/stars/1c7/Translate-Subtitle-File?style=flat-square) | ⭐ C | 翻译字幕文件：拖入 .srt / .ass / .vtt，点一下就翻完。产品名称：译幕（Zimoo）有网页版和 Mac / Windows 桌面版，支持 DeepSeek、Gemini、GPT、Claude、Kimi、智谱等 AI 大模型，和其他软件最大的区别（差异）：用户配置自己的 API Key 来做翻译，这样的好处是费用是最低的。 |
+| [StreamLingo](https://github.com/michael-chow-arch/StreamLingo) | ![](https://img.shields.io/github/stars/michael-chow-arch/StreamLingo?style=flat-square) | ⭐ C | YouTube 直播实时 AI 翻译字幕，支持本地 Ollama，英中双向。首次配置，日常双击启动。AI captions for YouTube livestreams with local Ollama. English ↔ Chinese. Windows/NVIDIA preview; setup once, double-click to start. |
+| [2ByteASR](https://github.com/NOTBAD314/2ByteASR) | ![](https://img.shields.io/github/stars/NOTBAD314/2ByteASR?style=flat-square) | ⭐ C | 兔白字幕：面向中文游戏实况的本地字幕识别与视频编辑工具，支持校对、说话人分轨与特效字幕。当前提供源码，暂无公开安装包。 |
+| [vibe-knowledge-video](https://github.com/xiazhuo123456789/vibe-knowledge-video) | ![](https://img.shields.io/github/stars/xiazhuo123456789/vibe-knowledge-video?style=flat-square) | ⭐ C | Vibe知识大赏风格 AI 知识视频 Skill — 纯代码生成电影感知识短视频（无配音·双语字幕·合成BGM·历史文献再现），风格规范逆向自 8 条抖音爆款原片（1091 帧逐秒分析） |
+| [social-media-toolkit](https://github.com/risingjerry/social-media-toolkit) | ![](https://img.shields.io/github/stars/risingjerry/social-media-toolkit?style=flat-square) | ⭐ C | Public Python SDK, CLI, and MCP server for extracting metadata, text, timed transcripts, media, and supported comments from Douyin, RedNote, Bilibili, and YouTube. |
+| [AiNiee](https://github.com/NEKOparapa/AiNiee) | ![](https://img.shields.io/github/stars/NEKOparapa/AiNiee?style=flat-square) | ⭐ C | 一款专注于 AI 多模态翻译的工具，一键自动翻译 RPG/SLG 游戏、Epub/TXT 小说、PDF/Word/MD 文档、Srt/Ass/Vtt 字幕，以及漫画图片、音频与视频等内容。 |
+| [capcut-pro-malelin-video-editor](https://github.com/mahmed9321/capcut-pro-malelin-video-editor) | ![](https://img.shields.io/github/stars/mahmed9321/capcut-pro-malelin-video-editor?style=flat-square) | ⭐ C | Professional video editing with advanced timeline and effects tools. |
+| [ASMRTranslator-bin](https://github.com/wanasummer/ASMRTranslator-bin) | ![](https://img.shields.io/github/stars/wanasummer/ASMRTranslator-bin?style=flat-square) | ⭐ C | 🎧 日文 ASMR / 同人音声 AI 翻译、中文字幕生成与中文配音工具（支持无字幕语音识别打轴、潜意识同传/同声配音、双轨时间轴音频编排与批量导出） | Japanese ASMR & Voice Drama AI Subtitle Translator and Chinese Dubbing Studio for Windows. |
+| [openshorts](https://github.com/mutonby/openshorts) | ![](https://img.shields.io/github/stars/mutonby/openshorts?style=flat-square) | ⭐ C | Open source AI clip generator: turns long videos into viral 9:16 shorts with AI moment detection, face tracking, subtitles and dubbing. Self-host free with Docker (MIT), or use the cloud with GPU s... |
+
+## AI Short Drama Generation
+
+| Project | Stars | Grade | Description |
+|---------|-------|-------|-------------|
+| [Open-AI-Micro-Drama-Generator](https://github.com/Anil-matcha/Open-AI-Micro-Drama-Generator) | ![](https://img.shields.io/github/stars/Anil-matcha/Open-AI-Micro-Drama-Generator?style=flat-square) | ⭐ C | AI short drama & micro-drama video generator — turns any idea into a complete short-form drama using multi-agent AI pipeline (screenwriter → storyboard → frames → video). Seedance 2 VIP, Kling 3.0 ... |
+| [huobao-drama](https://github.com/chatfire-AI/huobao-drama) | ![](https://img.shields.io/github/stars/chatfire-AI/huobao-drama?style=flat-square) | ⭐ A | Generate complete short dramas from a single sentence prompt |
+| [Toonflow-app](https://github.com/HBAI-Ltd/Toonflow-app) | ![](https://img.shields.io/github/stars/HBAI-Ltd/Toonflow-app?style=flat-square) | ⭐ A | AI short drama and comic strip generator |
+| [ArcReel](https://github.com/ArcReel/ArcReel) | ![](https://img.shields.io/github/stars/ArcReel/ArcReel?style=flat-square) | ⭐ A | Open-source AI video workspace for turning novels and story ideas into scripts, storyboards, assets, and short-form videos with agent orchestration |
+| [LocalMiniDrama](https://github.com/xuanyustudio/LocalMiniDrama) | ![](https://img.shields.io/github/stars/xuanyustudio/LocalMiniDrama?style=flat-square) | ⭐ B | Local-first AI short drama and comic creation tool — downloadable app, offline-friendly workflow, and fully open-source JavaScript stack |
+| [fablr](https://github.com/Agions/fablr) | ![](https://img.shields.io/github/stars/Agions/fablr?style=flat-square) | ⭐ C | 🎬 剧工 (Fablr) — 开源桌面级 AI 影视/短剧解说创作工坊 (Tauri 2 + Rust + React 18)。素材拆条 + 多 Agent 剧本研磨 + 剪映草稿导出 + 5 级消重合规矩阵分发，100% 本地优先处理。 |
+| [xiakeman-ai-short-drama](https://github.com/XiakeMan777/xiakeman-ai-short-drama) | ![](https://img.shields.io/github/stars/XiakeMan777/xiakeman-ai-short-drama?style=flat-square) | ⭐ C | AI漫剧 / AI仿真人短剧/Seedance2.0专用创作工具：剧本创作、剧本分析、小说改编、AI 分镜、图片资产和 Seedance2.0提示词 / 火山方舟视频生成工作流。 |
+| [story-shot-agent](https://github.com/neopen/story-shot-agent) | ![](https://img.shields.io/github/stars/neopen/story-shot-agent?style=flat-square) | ⭐ C | 剧本分镜工具智能体（PenShot）：电影/动漫/短剧/小说/剧本→分镜→片段→prompt | 基于 LangGraph+LLM，自动解析任意格式剧本，生成 Sora/Veo/Runway 等模型可用的连贯text-to-video提示词。保持角色/剧情跨片段一致，支持 MCP/REST API/函数调用 | Python库 + A2A集成。（LLM-powered screenplay-... |
+| [novanova-studio](https://github.com/Swayingleaves/novanova-studio) | ![](https://img.shields.io/github/stars/Swayingleaves/novanova-studio?style=flat-square) | ⭐ C | NovaNova Studio 是一个 Agent 驱动的 AI 创作工作台，集图片生成、视频生成、无限画布与多模型 API 、漫剧短剧生成于一体，为独立创作者和视觉团队打造更智能、更高效的创作体验。 |
+| [aid-studio](https://github.com/gzxx-2025/aid-studio) | ![](https://img.shields.io/github/stars/gzxx-2025/aid-studio?style=flat-square) | ⭐ C | 开源AI漫剧、AI短剧、AI电影与AI漫画创作平台，支持剧本、角色场景、智能分镜、图片与视频生成、配音及成片预览，多模型接入，可自行部署。预：无限画布、导演台。 |
+| [hongguo-downloader](https://github.com/parallelpan/hongguo-downloader) | ![](https://img.shields.io/github/stars/parallelpan/hongguo-downloader?style=flat-square) | ⭐ C | 红果短剧下载工具：红果短剧 / 红果免费短剧 全集下载、批量下载与整剧打包 ZIP，粘贴分享链接即云端处理、按集取件，免安装网页版。Hongguo downloader — short drama downloader for cdrama & duanju: paste a link, fetch every episode online, pay per episode, no inst... |
+| [DramaClip](https://github.com/efarsoft/DramaClip) | ![](https://img.shields.io/github/stars/efarsoft/DramaClip?style=flat-square) | ⭐ C | DramaClip 是一款专注于短剧自动高光剪辑的智能系统，采用单系统双模式设计，无需部署多套系统，用户可根据需求自由选择“原片直剪模式”或“AI解说模式”，快速处理1~N集短剧（1集、3集、5集、6集等任意数量），自动生成符合短视频分发标准的竖屏高光成片。 系统核心优势：操作简洁、处理高效、适配多种短剧场景，既能保留原片质感，也能生成专业的剧情解说内容，大幅降低短剧高光剪辑的门槛和成本。 |
+| [AI-Canvas-tauri](https://github.com/Tenney95/AI-Canvas-tauri) | ![](https://img.shields.io/github/stars/Tenney95/AI-Canvas-tauri?style=flat-square) | ⭐ C | Local-first AI canvas for visual workflows, AI short drama, image/video generation, storyboarding and asset management. ComfyUI, AI agents, MCP & Blender. 本地优先 AI 画布：AI短剧、AI资产管理、图像/视频生成、分镜制作与视频剪辑。 |
+| [AI-Short-Drama-Studio](https://github.com/JerrIsTheBesta/AI-Short-Drama-Studio) | ![](https://img.shields.io/github/stars/JerrIsTheBesta/AI-Short-Drama-Studio?style=flat-square) | ⭐ C | 剧流 Studio：开源 AI短剧生成 / AI短剧工作台，支持 LLM、视觉理解、生图、图生视频、配音、字幕与视频剪辑。Open-source AI short drama and video workflow studio. |
+| [novelvids](https://github.com/Anning01/novelvids) | ![](https://img.shields.io/github/stars/Anning01/novelvids?style=flat-square) | ⭐ C | 从故事创作、角色资产管理、分镜设计，到 AI 图片与视频生成，打造完整的开源 AI 漫剧与短剧创作工作台。支持创作助手、无限画布、本地部署与多模型接入。 |
+| [aid-studio](https://github.com/shijue-aid/aid-studio) | ![](https://img.shields.io/github/stars/shijue-aid/aid-studio?style=flat-square) | ⭐ C | 开源AI漫剧、AI短剧、AI电影与AI漫画创作平台，支持剧本、角色场景、智能分镜、图片与视频生成、配音及成片预览，多模型接入，可自行部署。预：无限画布、导演台。 |
+| [OpenMontage](https://github.com/charliewwdev/OpenMontage) | ![](https://img.shields.io/github/stars/charliewwdev/OpenMontage?style=flat-square) | ⭐ C | Open-source AI studio for short dramas, short videos and product ads: one-line idea → script, cast, storyboard, video, voice, edit. Self-hosted. | AI 短剧/短视频工坊 |
+| [Jellyfish](https://github.com/Forget-C/Jellyfish) | ![](https://img.shields.io/github/stars/Forget-C/Jellyfish?style=flat-square) | ⭐ C | 端到端的AI短剧生成｜An end-to-end production workspace for AI-generated short dramas. From script input to structured storyboarding, consistency management, shot preparation, video generation, and export. |
+
+## AI Video Analysis and Notes
+
+| Project | Stars | Grade | Description |
+|---------|-------|-------|-------------|
+| [BibiGPT-v1](https://github.com/JimmyLv/BibiGPT-v1) | ![](https://img.shields.io/github/stars/JimmyLv/BibiGPT-v1?style=flat-square) | ⭐ A | One-click AI video summary — supports Bilibili, YouTube, podcasts |
+| [BiliNote](https://github.com/JefferyHcool/BiliNote) | ![](https://img.shields.io/github/stars/JefferyHcool/BiliNote?style=flat-square) | ⭐ A | AI-powered video note generation from Bilibili and other platforms |
+| [AI-Media2Doc](https://github.com/hanshuaikang/AI-Media2Doc) | ![](https://img.shields.io/github/stars/hanshuaikang/AI-Media2Doc?style=flat-square) | ⭐ A | Turn audio/video into Xiaohongshu posts, public-account articles, mind maps, notes, summaries, subtitles, and screenshot-rich documents |
+
+## AI Digital Human
+
+| Project | Stars | Grade | Description |
+|---------|-------|-------|-------------|
+| [aigcpanel](https://github.com/modstart-lib/aigcpanel) | ![](https://img.shields.io/github/stars/modstart-lib/aigcpanel?style=flat-square) | ⭐ B | AIGC digital human system — AI avatar and virtual presenter |
+| [SeeCut](https://github.com/YeJe-cpu/SeeCut) | ![](https://img.shields.io/github/stars/YeJe-cpu/SeeCut?style=flat-square) | ⭐ C | An AI editor that watches its own cut: talking-head / AI-avatar video → auto-edited short video. 网感口播精剪：数字人/真人口播 → AI 自动精剪成网感动效短视频 → 可选剪映分层草稿 |
+
+## Programmatic Video Creation
+
+| Project | Stars | Grade | Description |
+| [rea-video](https://github.com/JuneYaooo/rea-video) | ![](https://img.shields.io/github/stars/JuneYaooo/rea-video?style=flat-square) | ⭐ C | 逆向一切视频：实拍口播、桌拍、AI 视频、3D、代码动效、混剪，逐镜拆出画面、花字、剪辑和声音是怎么做的，并给出复刻方案。Reverse-engineer any video, shot by shot. |
+|---------|-------|-------|-------------|
+| [Remotion](https://github.com/remotion-dev/remotion) | ![](https://img.shields.io/github/stars/remotion-dev/remotion?style=flat-square) | ⭐ A | Create videos programmatically using React — server-side rendering + Lambda |
+| [Helios](https://github.com/BintzGavin/helios) | ![](https://img.shields.io/github/stars/BintzGavin/helios?style=flat-square) | ⭐ B | Browser-native video framework that leans on real Web Animations and WebCodecs instead of screenshot-style rendering, with CSS-friendly motion, diagnostics, benchmarks, and TypeScript docs. |
+| [claude-code-video-toolkit](https://github.com/digitalsamba/claude-code-video-toolkit) | ![](https://img.shields.io/github/stars/digitalsamba/claude-code-video-toolkit?style=flat-square) | ⭐ C | Make videos with Claude Code: script, AI voiceover, music, video clips and render, on open-source models that cost cents |
+| [remotion-superpowers](https://github.com/DojoCodingLabs/remotion-superpowers) | ![](https://img.shields.io/github/stars/DojoCodingLabs/remotion-superpowers?style=flat-square) | ⭐ C | 🎬 Claude Code plugin — full video production studio for Remotion. AI voiceovers, music, stock footage, image/video generation, TikTok captions, 3D, transitions & AI review loop. 5 MCP servers, 13 c... |
+| [AIEVv2](https://github.com/notivn/AIEVv2) | ![](https://img.shields.io/github/stars/notivn/AIEVv2?style=flat-square) | ⭐ C | Automatic AI video editing: Claude directs HyperFrames (HTML + GSAP motion graphics) and Remotion (timeline assembly). Karaoke subtitles, kinetic typography, sound effects, a timeline editor, text-... |
+
+## Video Editing Libraries
+
+| Project | Stars | Grade | Description |
+|---------|-------|-------|-------------|
+| [MoviePy](https://github.com/Zulko/moviepy) | ![](https://img.shields.io/github/stars/Zulko/moviepy?style=flat-square) | ⭐ A | Python video editing library — cutting, compositing, effects, text overlays |
+| [ffmpeg-python](https://github.com/kkroening/ffmpeg-python) | ![](https://img.shields.io/github/stars/kkroening/ffmpeg-python?style=flat-square) | ⭐ B | Pythonic wrapper for FFmpeg — clean API for video/audio processing |
+| [kinocut](https://github.com/KyaniteLabs/kinocut) | ![](https://img.shields.io/github/stars/KyaniteLabs/kinocut?style=flat-square) | ⭐ C | Guardrailed video editing MCP server for AI agents. FFmpeg, Hyperframes, repurposing tools, Python client, and CLI. Local, fast, free. |
+| [PyAV](https://github.com/PyAV-Org/PyAV) | ![](https://img.shields.io/github/stars/PyAV-Org/PyAV?style=flat-square) | ⭐ A | Pythonic FFmpeg bindings with wheels, docs, examples, and tests for low-level video/audio processing pipelines. |
+| [libopenshot](https://github.com/OpenShot/libopenshot) | ![](https://img.shields.io/github/stars/OpenShot/libopenshot?style=flat-square) | ⭐ B | Cross-platform C++ video editing and animation library with Python/Ruby bindings, FFmpeg support, hardware acceleration, and bundled examples/tests. |
+| [etro](https://github.com/etro-js/etro) | ![](https://img.shields.io/github/stars/etro-js/etro?style=flat-square) | ⭐ B+ | TypeScript video-editing framework for the browser. Full video compositing and effects pipeline with canvas-based rendering. |
+| [Cliparr](https://github.com/TechSquidTV/Cliparr) | ![](https://img.shields.io/github/stars/TechSquidTV/Cliparr?style=flat-square) | ⭐ C+ | Create clips from media on your personal media server. Automated clip generation with configurable trimming, format conversion, and batch processing for Plex/Jellyfin libraries. |
+| [auto-editor](https://github.com/WyattBlue/auto-editor) | ![](https://img.shields.io/github/stars/WyattBlue/auto-editor?style=flat-square) | ⭐ B+ | Effort-free video editing — automatically cuts silences, dead spaces, and boring sections from videos. Fast Nim-based CLI with Python bindings for batch processing and programmatic editing pipelines. |
+| [premiere-pro-mcp](https://github.com/leancoderkavy/premiere-pro-mcp) | ![](https://img.shields.io/github/stars/leancoderkavy/premiere-pro-mcp?style=flat-square) | ⭐ C | Adobe Premiere Pro MCP server with 269 AI video editing tools for timeline automation, effects, media management, and export. |
+| [freecut](https://github.com/walterlow/freecut) | ![](https://img.shields.io/github/stars/walterlow/freecut?style=flat-square) | ⭐ C | FreeCut is a professional-grade video editor that runs entirely in your browser. Professional video editing, zero installation. Create stunning videos with multi-track editing, keyframe animations,... |
+| [Timeline Studio](https://github.com/chatman-media/timeline-studio) | ![](https://img.shields.io/github/stars/chatman-media/timeline-studio?style=flat-square) | ⭐ B- | AI-powered video editing studio with timeline-based editing, intelligent clip arrangement, transitions, effects, and one-click export for content creators. |
+| [wayshot](https://github.com/heng30/wayshot) | ![](https://img.shields.io/github/stars/heng30/wayshot?style=flat-square) | ⭐ C | Video creation tool: Video editing (with extensive AI-assisted features), screen recording, streaming, and screen sharing.  视频编辑（大量AI辅助功能）、录屏、推流、屏幕共享。 |
+| [LynnReal-Omni](https://github.com/LynnReal-AI/LynnReal-Omni) | ![](https://img.shields.io/github/stars/LynnReal-AI/LynnReal-Omni?style=flat-square) | ⭐ C | LynnReal-Omni brings text-to-video, image-to-video, human- and hand-pose guided generation, structural control, omni-reference generation, style transfer, video editing, degraded-video restoration ... |
+| [socaliseit](https://github.com/MerlinStacks/socaliseit) | ![](https://img.shields.io/github/stars/MerlinStacks/socaliseit?style=flat-square) | ⭐ C | A powerful social media management platform with multi-track video editing (Remotion), unified publishing across Instagram, TikTok, YouTube & more. Features AI-powered caption generation, cross-pla... |
+| [CapCut-v26](https://github.com/ApparitionStream/CapCut-v26) | ![](https://img.shields.io/github/stars/ApparitionStream/CapCut-v26?style=flat-square) | ⭐ C | Professional video editing suite featuring multi-track timeline editing, AI-powered effects, keyframe animation, and optimized 4K rendering tools. |
+| [capcut-pro-video-editor-latest](https://github.com/Dimnyohollow/capcut-pro-video-editor-latest) | ![](https://img.shields.io/github/stars/Dimnyohollow/capcut-pro-video-editor-latest?style=flat-square) | ⭐ C | CapCut Pro Video Editor Latest is an all-in-one, cross-platform video editing suite that equips creators with AI-powered tools, automated captions, background removal, premium effects, and high-res... |
+
+---
+
+## FAQ
+
+### What is the best open-source tool for auto-generating short videos?
+
+Based on GitHub stars and community activity, **MoneyPrinterTurbo** (20k+ stars) is currently the most popular and actively maintained solution. It handles the full pipeline: script generation via LLM, TTS voiceover, subtitle generation, stock footage sourcing, and final video assembly.
+
+### What is the best open-source text-to-video model?
+
+For research-grade quality, **Wan2.1** (Alibaba, 20k+ stars) and **Open-Sora** (22k+ stars) lead the field. For consumer GPU users, **FramePack** enables video generation with fixed GPU memory regardless of video length.
+
+### What are the best open-source social media automation tools?
+
+**Postiz** (15k+ stars) is a full-featured social media management platform (like Buffer/Hootsuite) that supports scheduling, analytics, and AI content generation. For Chinese platform multi-upload, **social-auto-upload** supports Douyin, TikTok, Bilibili, Kuaishou, and Xiaohongshu.
+
+---
+
+## Contributing
+
+Contributions welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first.
+
+## License
+
+[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+To the extent possible under law, the authors have waived all copyright and related or neighboring rights to this work.
